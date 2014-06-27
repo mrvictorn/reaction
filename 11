@@ -1,0 +1,33 @@
+[[[[[ C:\dev\reaction ]]]]]
+
+=> Started proxy.
+=> Starting MongoDB... -[G                        [G=> Starting MongoDB... \[G                        [G=> Starting MongoDB... |[G                        [G=> Starting MongoDB... /[G                        [G=> Starting MongoDB... -[G                        [G=> Starting MongoDB... \[G                        [G=> Starting MongoDB... |[G                        [G=> Starting MongoDB... /[G                        [G=> Starting MongoDB... -[G                        [G=> Starting MongoDB... \[G                        [G=> Starting MongoDB... |[G                        [G=> Starting MongoDB... /[G                        [G=> Starting MongoDB... -[G                        [G=> Starting MongoDB... \[G                        [G=> Starting MongoDB... |[G                        [G=> Starting MongoDB... /[G                        [G=> Started MongoDB.
+=> Starting your app...[G                       [G=> Errors prevented startup:
+
+While building the application:
+error: no such package: 'spin'
+error: no such package: 'roles'
+error: no such package: 'collection-hooks'
+error: no such package: 'collectionFS'
+error: no such package: 'cfs-filesystem'
+error: no such package: 'handlebars-server'
+error: no such package: 'cfs-gridfs'
+error: no such package: 'cfs-s3'
+error: no such package: 'ui-dropped-event'
+error: no such package: 'reaction-app-packages'
+error: no such package: 'reaction-core'
+error: no such package: 'reaction-paypal'
+error: no such package: 'reaction-google-analytics'
+error: no such package: 'reaction-helloworld'
+
+While building package `underscore-string-latest`:
+error: File not found: lib\underscore.string\lib\underscore.string.js
+
+While building package `iron-router`:
+error: no such package: 'blaze-layout'
+
+While building package `moment`:
+error: File not found: lib\moment\moment.js
+
+=> Your application has errors. Waiting for file change.
+Завершить выполнение пакетного файла [Y(да)/N(нет)]? 
